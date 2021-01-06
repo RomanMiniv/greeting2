@@ -542,8 +542,8 @@ vertex3d.prototype = {
 				vibrateFlag = false;
 			};
 			if(invertCV.execution() > 0.7) {
-				strokeColor = "rgba(0,0,0,0.1)";
-				backgroundColor = "rgba(255,255,255,1)";
+				strokeColor = "rgba(255,255,255,0.1)";
+				backgroundColor = "rgba(0,0,0,1)";
 			} else {
 				strokeColor = "rgba(255,255,255,0.1)";
 				backgroundColor = "rgba(0,0,0,1)";
